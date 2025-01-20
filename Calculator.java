@@ -52,3 +52,28 @@ public class Calculator {
         }
         System.out.println();
     }
+
+    // Sum of Array
+    public static void sumOfArray() {
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+        UserInput userInput = new UserInput();
+        int[] array = userInput.getArrayInput("Enter array elements:", size);
+        int sum = 0;
+        for (int num : array)
+            sum += num;
+        System.out.println("Sum of array elements: " + sum);
+    }
+
+    // Mean of Array
+    public static void meanOfArray() {
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+        UserInput userInput = new UserInput();
+        int[] array = userInput.getArrayInput("Enter array elements:", size);
+        int sum = 0;
+        for (int num : array)
+            sum += num;
+        System.out.println("Mean of array elements: " + (double) sum / size);
+    }
+}
