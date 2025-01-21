@@ -1,7 +1,7 @@
 // Main.java
-// Name: [Your Name]
-// PRN: [Your PRN]
-// Batch: [Your Batch]
+// Name: VRAJ PATEL
+// PRN: 23070126147
+// Batch: AIML-B3
 
 public class Main {
     public static void main(String[] args) {
