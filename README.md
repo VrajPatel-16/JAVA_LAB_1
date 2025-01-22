@@ -1,4 +1,4 @@
-Calculator Program
+ # Calculator Program
 
 A simple Java-based calculator application designed to perform various mathematical operations. The program consists of three main components:
 
